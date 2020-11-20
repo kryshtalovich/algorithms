@@ -1,0 +1,23 @@
+{
+  "name": "kryshtalovich/algorithms",
+  "description": "Sort and search algorithms",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "kryshtalovich",
+      "email": "kryshtalovich@gmail.com"
+    }
+  ],
+  "require": {
+    "php":">=7.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "Kryshtalovich\\Algorithms\\": "src/"
+    }
+  },
+  "config": {
+    "optimize-autoloader": true
+  }
+}
